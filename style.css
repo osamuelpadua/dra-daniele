@@ -580,7 +580,7 @@ body::-webkit-scrollbar-thumb:hover {
 /* ===== PROBLEMS BLOCK ===== */
 .problems-block {
   position: relative;
-  height: 195px;
+  height: 220px;
   background: linear-gradient(to right, #689BCB 0%, #F095AA 100%);
   overflow: visible;
   clip-path: inset(-400px 0 0 0); /* permite sangrar acima, clipa abaixo */
@@ -614,20 +614,19 @@ body::-webkit-scrollbar-thumb:hover {
   z-index: 3;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 80px 0 0;
+  padding: 0 80px;
   height: 100%;
   display: flex;
   align-items: center;
-  gap: 52px;
+  gap: 56px;
 }
 
 /* Coluna da imagem */
 .problems-img-col {
   flex: 0 0 auto;
   position: relative;
-  height: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .problems-img {
@@ -639,19 +638,19 @@ body::-webkit-scrollbar-thumb:hover {
 
 .problems-stamp {
   display: block;
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
-  filter: brightness(0) invert(1) drop-shadow(0 4px 20px rgba(0,0,0,0.2));
-  opacity: 0.85;
+  filter: brightness(0) invert(1) drop-shadow(0 2px 12px rgba(0,0,0,0.18));
+  opacity: 0.9;
 }
 
 /* Headline */
 .problems-headline {
-  flex: 0 0 230px;
-  font-size: 22px;
+  flex: 0 0 200px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.45;
   color: var(--white);
   letter-spacing: -0.01em;
 }
