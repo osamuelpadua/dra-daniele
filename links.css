@@ -162,7 +162,7 @@
 
 /* Primary card (Agende) */
 .lk-card--primary {
-  background: linear-gradient(135deg, #689BCB, #2B5A9E, #1B3A5C, #2B5A9E, #689BCB);
+  background: linear-gradient(135deg, #689BCB, #4A7AB5, #2B5A9E, #4A7AB5, #689BCB);
   background-size: 400% 400%;
   animation:
     lk-fadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) var(--lk-delay, 0.18s) forwards,
@@ -187,7 +187,7 @@
 }
 
 .lk-card--primary:hover {
-  background: linear-gradient(135deg, #4A7AB5, #4A7AB5, #1B3A5C, #4A7AB5, #4A7AB5);
+  background: linear-gradient(135deg, #3A6FA8, #3A6FA8, #2B5A9E, #3A6FA8, #3A6FA8);
   background-size: 400% 400%;
   transform: translateY(-3px) scale(1.01);
   box-shadow: 0 14px 44px rgba(27, 58, 92, 0.32);
@@ -199,7 +199,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #689BCB, #1B3A5C);
+  background: linear-gradient(135deg, #689BCB, #2B5A9E);
   display: flex;
   align-items: center;
   justify-content: center;
