@@ -442,7 +442,7 @@ body::-webkit-scrollbar-thumb:hover {
 /* Header */
 .treatment-header {
   text-align: center;
-  max-width: 760px;
+  max-width: 960px;
 }
 
 .tagline {
@@ -456,7 +456,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .treatment-title {
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.02em;
