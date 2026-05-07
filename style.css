@@ -638,8 +638,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 .problems-stamp {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 124px;
+  height: 124px;
   object-fit: contain;
   filter: brightness(0) invert(1) drop-shadow(0 2px 12px rgba(0,0,0,0.18));
   opacity: 0.9;
@@ -647,8 +647,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* Headline */
 .problems-headline {
-  flex: 0 0 200px;
-  font-size: 20px;
+  flex: 0 0 220px;
+  font-size: 23px;
   font-weight: 700;
   line-height: 1.45;
   color: var(--white);
