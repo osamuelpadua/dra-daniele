@@ -206,7 +206,7 @@ body::-webkit-scrollbar-thumb:hover {
 .btn-cta {
   display: inline-flex;
   align-items: center;
-  background: linear-gradient(135deg, #689BCB, #C09BBB, #F095AA, #C09BBB, #689BCB);
+  background: linear-gradient(135deg, #6B99C5, #8ABDB0, #ACC3A8, #8ABDB0, #6B99C5);
   background-size: 400% 400%;
   animation: cta-gradient 10s linear infinite;
   overflow: hidden;
@@ -1329,7 +1329,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #689BCB 0%, #F095AA 100%);
+  background: linear-gradient(135deg, #6B99C5 0%, #ACC3A8 100%);
   display: inline-flex;
   align-items: center;
   justify-content: center;
