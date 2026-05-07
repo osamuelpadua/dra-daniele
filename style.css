@@ -262,8 +262,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .crefito {
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: 500;
   letter-spacing: 0.1em;
   color: var(--dark);
   text-transform: uppercase;
