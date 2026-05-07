@@ -8,8 +8,8 @@
   --white:      #FFFFFF;
   --gray-bg:    #EEF4FA;
   --grad-start: #689BCB;
-  --grad-end:   #2B5A9E;
-  --gradient:   linear-gradient(to right, #689BCB, #2B5A9E);
+  --grad-end:   #F095AA;
+  --gradient:   linear-gradient(to right, #689BCB, #F095AA);
 }
 
 html { scroll-behavior: smooth; overflow-x: hidden; }
@@ -206,7 +206,7 @@ body::-webkit-scrollbar-thumb:hover {
 .btn-cta {
   display: inline-flex;
   align-items: center;
-  background: linear-gradient(135deg, #689BCB, #4A7AB5, #2B5A9E, #4A7AB5, #689BCB);
+  background: linear-gradient(135deg, #689BCB, #C09BBB, #F095AA, #C09BBB, #689BCB);
   background-size: 400% 400%;
   animation: cta-gradient 10s linear infinite;
   overflow: hidden;
@@ -334,7 +334,7 @@ body::-webkit-scrollbar-thumb:hover {
   height: 248px;
   display: flex;
   align-items: center;
-  background: linear-gradient(to right, #689BCB 0%, #689BCB 100%);
+  background: linear-gradient(to right, #689BCB 0%, #F095AA 100%);
   overflow: hidden;
 }
 
@@ -1195,7 +1195,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 1.1;
   letter-spacing: -0.02em;
-  background: linear-gradient(to right, #689BCB, #2B5A9E);
+  background: linear-gradient(to right, #689BCB, #F095AA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1284,7 +1284,7 @@ body::-webkit-scrollbar-thumb:hover {
   line-height: 1.06;
   letter-spacing: -0.03em;
   margin-bottom: 14px;
-  background: linear-gradient(90deg, #689BCB 0%, #4A7AB5 48%, #2B5A9E 100%);
+  background: linear-gradient(90deg, #689BCB 0%, #C09BBB 50%, #F095AA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1329,7 +1329,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #689BCB 0%, #2B5A9E 100%);
+  background: linear-gradient(135deg, #689BCB 0%, #F095AA 100%);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1483,7 +1483,7 @@ body::-webkit-scrollbar-thumb:hover {
   line-height: 1.08;
   letter-spacing: -0.03em;
   margin-bottom: 14px;
-  background: linear-gradient(90deg, #689BCB 0%, #4A7AB5 48%, #2B5A9E 100%);
+  background: linear-gradient(90deg, #689BCB 0%, #C09BBB 50%, #F095AA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1745,7 +1745,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.04em;
-  background: linear-gradient(90deg, #689BCB 0%, #4A7AB5 48%, #2B5A9E 100%);
+  background: linear-gradient(90deg, #689BCB 0%, #C09BBB 50%, #F095AA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
