@@ -112,7 +112,7 @@
 .lk-name {
   font-size: 18px;
   font-weight: 700;
-  color: #1B3A5C;
+  color: #848484;
   letter-spacing: 0.01em;
 }
 
@@ -162,7 +162,7 @@
 
 /* Primary card (Agende) */
 .lk-card--primary {
-  background: linear-gradient(135deg, #6B99C5, #8ABDB0, #ACC3A8, #8ABDB0, #6B99C5);
+  background: linear-gradient(135deg, #6B99C5 0%, #6B99C5 35%, #ACC3A8 50%, #6B99C5 65%, #6B99C5 100%);
   background-size: 400% 400%;
   animation:
     lk-fadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) var(--lk-delay, 0.18s) forwards,
@@ -187,7 +187,7 @@
 }
 
 .lk-card--primary:hover {
-  background: linear-gradient(135deg, #5A8EC5, #7AB0A8, #9DB89A, #7AB0A8, #5A8EC5);
+  background: linear-gradient(135deg, #5A8EC5 0%, #5A8EC5 35%, #9DB89A 50%, #5A8EC5 65%, #5A8EC5 100%);
   background-size: 400% 400%;
   transform: translateY(-3px) scale(1.01);
   box-shadow: 0 14px 44px rgba(27, 58, 92, 0.32);
@@ -229,7 +229,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #1B3A5C;
+  color: #848484;
   line-height: 1.2;
 }
 

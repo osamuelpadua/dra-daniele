@@ -2,7 +2,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --dark:       #1B3A5C;
+  --dark:       #848484;
   --primary:    #689BCB;
   --teal:       #F095AA;
   --white:      #FFFFFF;
@@ -887,7 +887,7 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateY(-50%) translateX(10px) scale(0.92);
   white-space: nowrap;
   background: #ffffff;
-  color: #1B3A5C;
+  color: #848484;
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   font-weight: 700;
@@ -1362,7 +1362,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   line-height: 1.35;
   letter-spacing: 0.07em;
-  color: #1B3A5C;
+  color: #848484;
   margin-bottom: 28px;
 }
 
@@ -1382,7 +1382,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .profile-body strong {
   font-weight: 700;
-  color: #1B3A5C;
+  color: #848484;
 }
 
 .profile-socials {
@@ -1417,7 +1417,7 @@ body::-webkit-scrollbar-thumb:hover {
   gap: 8px;
   font-size: 16px;
   font-weight: 700;
-  color: #1B3A5C;
+  color: #848484;
   white-space: nowrap;
   letter-spacing: 0.01em;
   background: transparent;
@@ -1561,7 +1561,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.55;
-  color: #1B3A5C;
+  color: #848484;
 }
 
 .faq-list {
@@ -1601,7 +1601,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.35;
-  color: #1B3A5C;
+  color: #848484;
 }
 
 .faq-icon {
@@ -1637,7 +1637,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.55;
-  color: #1B3A5C;
+  color: #848484;
 }
 
 .faq-footer {
@@ -1664,7 +1664,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.35;
-  color: #1B3A5C;
+  color: #848484;
   max-width: 360px;
   flex: 0 1 360px;
 }
@@ -1675,7 +1675,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .faq-cta-text strong {
   font-weight: 700;
-  color: #1B3A5C;
+  color: #848484;
 }
 
 .faq-footer .btn-cta {
@@ -1835,7 +1835,7 @@ body::-webkit-scrollbar-thumb:hover {
   gap: 18px;
   min-height: 78px;
   text-decoration: none;
-  color: #1B3A5C;
+  color: #848484;
   box-shadow: 0 16px 36px rgba(27, 58, 92, 0.08);
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
   border: 1.5px solid transparent;
@@ -1870,7 +1870,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.45;
-  color: #1B3A5C;
+  color: #848484;
   max-width: 420px;
 }
 
