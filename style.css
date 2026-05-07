@@ -1376,7 +1376,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
-  color: #4A6E8A;
+  color: #848484;
 }
 
 .profile-body strong {
@@ -1600,7 +1600,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.35;
-  color: #848484;
+  color: var(--primary);
 }
 
 .faq-icon {
@@ -1674,7 +1674,10 @@ body::-webkit-scrollbar-thumb:hover {
 
 .faq-cta-text strong {
   font-weight: 700;
-  color: #848484;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .faq-footer .btn-cta {
