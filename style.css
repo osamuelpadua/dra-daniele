@@ -166,6 +166,18 @@ body::-webkit-scrollbar-thumb:hover {
   padding-bottom: 50px;
 }
 
+.hero-tagline {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 14px;
+}
+
 .hero-left h1 {
   font-size: 54px;
   font-weight: 500;
@@ -173,11 +185,6 @@ body::-webkit-scrollbar-thumb:hover {
   letter-spacing: -0.04em;
   color: var(--dark);
   margin-bottom: 24px;
-}
-
-.hero-headline-soft {
-  color: var(--dark);
-  font-weight: 400;
 }
 
 .gradient-text {
