@@ -604,6 +604,15 @@ body::-webkit-scrollbar-thumb:hover {
   filter: drop-shadow(0 0 30px rgba(58, 125, 184, 0.2));
 }
 
+.problems-stamp {
+  display: block;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  filter: brightness(0) invert(1) drop-shadow(0 4px 20px rgba(0,0,0,0.2));
+  opacity: 0.85;
+}
+
 /* Headline */
 .problems-headline {
   flex: 0 0 230px;
