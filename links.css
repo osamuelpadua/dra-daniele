@@ -55,7 +55,7 @@
 .lk-logo {
   height: 72px;
   width: auto;
-  filter: drop-shadow(0 2px 10px rgba(30, 51, 85, 0.12));
+  filter: drop-shadow(0 2px 10px rgba(27, 58, 92, 0.12));
 }
 
 .lk-avatar-wrap {
@@ -64,9 +64,9 @@
   min-width: 124px;
   min-height: 124px;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(58, 125, 184, 0.15), rgba(30, 51, 85, 0.15));
+  background: linear-gradient(135deg, rgba(104, 155, 203, 0.15), rgba(27, 58, 92, 0.15));
   padding: 6px;
-  box-shadow: 0 4px 20px rgba(30, 51, 85, 0.12);
+  box-shadow: 0 4px 20px rgba(27, 58, 92, 0.12);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,7 +89,7 @@
   font-size: 13px;
   font-weight: 500;
   line-height: 1.6;
-  color: rgba(30, 51, 85, 0.6);
+  color: rgba(27, 58, 92, 0.6);
   text-align: center;
   max-width: 340px;
   margin: 0 auto;
@@ -98,7 +98,7 @@
 .lk-divider-dot {
   width: 40px;
   height: 1px;
-  background: rgba(30, 51, 85, 0.2);
+  background: rgba(27, 58, 92, 0.2);
   border-radius: 1px;
 }
 
@@ -112,14 +112,14 @@
 .lk-name {
   font-size: 18px;
   font-weight: 700;
-  color: #1E3355;
+  color: #1B3A5C;
   letter-spacing: 0.01em;
 }
 
 .lk-specialty {
   font-size: 12px;
   font-weight: 600;
-  color: rgba(30, 51, 85, 0.5);
+  color: rgba(27, 58, 92, 0.5);
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -139,8 +139,8 @@
   padding: 18px 22px;
   border-radius: 18px;
   background: #ffffff;
-  border: 1px solid rgba(30, 51, 85, 0.09);
-  box-shadow: 0 2px 16px rgba(30, 51, 85, 0.06);
+  border: 1px solid rgba(27, 58, 92, 0.09);
+  box-shadow: 0 2px 16px rgba(27, 58, 92, 0.06);
   text-decoration: none;
   cursor: pointer;
   opacity: 0;
@@ -155,20 +155,20 @@
 
 .lk-card:hover {
   background: #F0F6FA;
-  border-color: rgba(58, 125, 184, 0.3);
+  border-color: rgba(104, 155, 203, 0.3);
   transform: translateY(-3px);
-  box-shadow: 0 8px 32px rgba(30, 51, 85, 0.12);
+  box-shadow: 0 8px 32px rgba(27, 58, 92, 0.12);
 }
 
 /* Primary card (Agende) */
 .lk-card--primary {
-  background: linear-gradient(135deg, #4A82B8, #162C48, #1E3355, #162C48, #4A82B8);
+  background: linear-gradient(135deg, #689BCB, #2B5A9E, #1B3A5C, #2B5A9E, #689BCB);
   background-size: 400% 400%;
   animation:
     lk-fadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) var(--lk-delay, 0.18s) forwards,
     cta-gradient 10s linear calc(var(--lk-delay, 0.18s) + 0.55s) infinite;
   border-color: transparent;
-  box-shadow: 0 6px 28px rgba(30, 51, 85, 0.28);
+  box-shadow: 0 6px 28px rgba(27, 58, 92, 0.28);
   position: relative;
   overflow: hidden;
 }
@@ -187,10 +187,10 @@
 }
 
 .lk-card--primary:hover {
-  background: linear-gradient(135deg, #2D6BA0, #2D6BA0, #162C48, #2D6BA0, #2D6BA0);
+  background: linear-gradient(135deg, #4A7AB5, #4A7AB5, #1B3A5C, #4A7AB5, #4A7AB5);
   background-size: 400% 400%;
   transform: translateY(-3px) scale(1.01);
-  box-shadow: 0 14px 44px rgba(30, 51, 85, 0.32);
+  box-shadow: 0 14px 44px rgba(27, 58, 92, 0.32);
   border-color: transparent;
 }
 
@@ -199,7 +199,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #4A82B8, #1E3355);
+  background: linear-gradient(135deg, #689BCB, #1B3A5C);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -229,7 +229,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #1E3355;
+  color: #1B3A5C;
   line-height: 1.2;
 }
 
@@ -260,7 +260,7 @@
 }
 
 .lk-arrow svg path {
-  stroke: #4A82B8;
+  stroke: #689BCB;
 }
 
 .lk-card--primary .lk-arrow svg path {
